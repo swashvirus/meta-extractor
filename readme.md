@@ -45,6 +45,7 @@ The first parameter `opts` as in [got](https://github.com/sindresorhus/got) modu
 - **uri** — uri to get meta from.
 - rxMeta — regexp, custom regexp for meta data.
 - limit — number, response body size limit in bytes. Default 2Mb.
+- userAgent - string, custom user-agent header. Default "meta-extractor/${VERSION} (https://github.com/velocityzen/meta-extractor)"
 
 License MIT;
 

@@ -153,7 +153,7 @@ function _extract(opts, done) {
   const limit = opts.limit || 2 * 1024 * 1024;
   opts.headers = Object.assign(
     {
-      'User-Agent': USERAGENT
+      'User-Agent': opts.userAgent || USERAGENT
     },
     opts.headers
   );
